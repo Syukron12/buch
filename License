@@ -168,7 +168,8 @@ $res = get(faucet);
 
 $li = explode("<",explode('class="text-700 mx-2" >',$res)[3])[0];
 
-
+echo "$white Balance $kuning ~>$red $bal ".$end."\n";
+echo "$white Claimleft$kuning ~>$red $li  ".$end."\n";
 garis();
 menu:
 echo Slow(" $red{1}$hijau Bypass Faucet$yellow  ".$end."\n");
